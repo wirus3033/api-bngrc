@@ -11,7 +11,8 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://bngrc-wirus3033s-projects.vercel.app"
+    "https://bngrc-wirus3033s-projects.vercel.app",
+    "https://api-bngrc.onrender.com/api/data/"
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
